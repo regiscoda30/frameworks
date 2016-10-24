@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav{
+	background-color: rgba(255,255,255,0.9);
+}
+
+nav .brand-logo{
+	color: black;
+	margin-left: 5%;
+}
+
+nav .brand-logo span{
+	color: #11B0CB
+}
+
+nav ul{
+	margin-right: 5%;
+}
+
+nav ul a{
+    position: relative;
+    margin-right: 0%;
+    margin-left: 0%;    
+	color: black;
+}
+
+nav .what{
+	color: #11B0CB;
+}
+
+
+
+.banniere{
+	height: 500px;
+	width: 100%;
+	background-image: url(bg.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banniere h1{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn{
+    margin-bottom: 5;
+	background-color: #11B0CB;
+    border: 3px #11B0CB outset;
+}
+
+
+
+.texte{
+	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+
+.texte h2{
+	color: #11B0CB;
+	font-weight: bold;
+	font-size: ;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.texte p{
+	text-align: center;
+}
+
+
+
+.images{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px;
+}
+
+.images img{
+	width: 200px;
+	height: 200px;
+}
+
+.imageslogo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageslogo h3{
+	font-size: 25px;
+	color: #11B0CB;
+}
+
+.imageslogo p{
+	text-align: center;
+}
